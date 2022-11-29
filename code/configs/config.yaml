@@ -1,0 +1,77 @@
+# basic setting
+is_train: True
+worker: 8
+#GPU_NUM: 1
+EYE_shape: [55, 60]
+NOSE_shape: [50, 60]
+MOUTH_shape: [44, 90]
+
+# train
+# basic
+batch_size: 25
+shuffle: true
+max_epoch: 500
+epoch_start: 1      # the starting epoch count
+
+# optimizer
+beta1: 0.5
+beta2: 0.999
+weight_decay: 0.0001
+# lr
+lr: 0.0002
+lr_policy: 'linear'
+# linear
+epoch_init_lr: 500  # of epochs at starting learning rate'
+niter_decay: 1500    # of epochs to linearly decay learning rate to zero
+# step
+step_size: 50
+gamma: 0.5
+
+# print
+visual_img_freq: 5000
+print_loss_freq: 5000
+save_epoch_freq: 20
+
+# test
+test_batch_size: 1   # must be one
+results_root: 'results/'
+test_freq: 10
+dims: 2048
+
+# dataset
+dataset_dir: ''
+input_nc: 3
+mask_nc: 1
+output_nc: 3
+crop_size: 256
+crop: True
+flip: True
+
+# net
+use_dropout: False
+
+# generator
+ngf: 32
+G_norm_type: in
+downs_num: 4
+num_block: 6
+
+style_dim: 64
+
+# discriminator
+ndf: 64
+n_layers_D: 3
+D_norm_type: batch
+gan_mode: hinge
+num_D: 3
+# compD
+ndf_comp: 32
+D_comp_norm_type: batch
+
+# loss
+# stage1
+no_vgg_loss: False
+lambda_L1: 1
+lambda_vgg: 10
+lambda_arcface: 3
+lambda_comp: 0.5
