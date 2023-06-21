@@ -33,3 +33,18 @@ Download the pretrained model from [BaiDuYun (password:spwk)](https://pan.baidu.
 python test.py
 ```
 
+## Citation:
+If you use this code for your research, please cite our paper.
+```
+@article{luo2023reference,
+  title={Reference-Guided Large-Scale Face Inpainting with Identity and Texture Control},
+  author={Luo, Wuyang and Yang, Su and Zhang, Weishan},
+  journal={IEEE Transactions on Circuits and Systems for Video Technology},
+  year={2023},
+  publisher={IEEE}
+}
+```
+
+
+## Acknowledgment
+We use [zllrunning's model](https://github.com/zllrunning/face-parsing.PyTorch) to obtain face segmentation maps, [1adrianb's model](https://github.com/1adrianb/face-alignment) to align face and detect landmarks, [foamliu's model](https://github.com/foamliu/InsightFace-v2) to compute Arcface loss.
