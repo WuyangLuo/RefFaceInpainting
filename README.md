@@ -1,5 +1,5 @@
 ### Reference-Guided Large-Scale Face Inpainting with Identity and Texture Control 
-(TCSVT 2023) [[Paper]](https://arxiv.org/pdf/2303.07014.pdf)
+TCSVT 2023 [[Paper]](https://arxiv.org/pdf/2303.07014.pdf)
 
 Face inpainting aims at plausibly predicting missing
 pixels of face images within a corrupted region. Most existing
