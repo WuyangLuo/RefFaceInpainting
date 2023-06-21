@@ -18,3 +18,14 @@ image.
 
 ### Dataset Preparation
 Download our dataset celebID from [BaiDuYun (password:5asv)](https://pan.baidu.com/s/1vbGJ1Gr3v71ulneSfQaN8Q) | [GoogleDrive](https://drive.google.com/file/d/1dIvKsW36j2D7AN2SBh-ZinF9X9iZoCon/view?usp=sharing) and set the relevant paths in `configs/config.yaml` and `test.py`
+
+### Training
+Train a model, run:
+```
+python train.py
+```
+
+## Testing
+
+Download the pretrained model from [BaiDuYun (password:spwk)](https://pan.baidu.com/s/1RM2thrjKo_WbA972GTB1iA) | [GoogleDrive](https://drive.google.com/file/d/1qn1fKj-4iwykSZl_GT9kjz2UTnbMlU36/view?usp=sharing)
+
