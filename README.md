@@ -25,7 +25,7 @@ Train a model, run:
 python train.py
 ```
 
-## Testing
+### Testing
 
 Download the pretrained model from [BaiDuYun (password:spwk)](https://pan.baidu.com/s/1RM2thrjKo_WbA972GTB1iA) | [GoogleDrive](https://drive.google.com/file/d/1qn1fKj-4iwykSZl_GT9kjz2UTnbMlU36/view?usp=sharing). Generate inpainted results guided by different reference images, run:
 
@@ -33,7 +33,7 @@ Download the pretrained model from [BaiDuYun (password:spwk)](https://pan.baidu.
 python test.py
 ```
 
-## Citation:
+### Citation:
 If you use this code for your research, please cite our paper.
 ```
 @article{luo2023reference,
@@ -46,5 +46,5 @@ If you use this code for your research, please cite our paper.
 ```
 
 
-## Acknowledgment
+### Acknowledgment
 We use [zllrunning's model](https://github.com/zllrunning/face-parsing.PyTorch) to obtain face segmentation maps, [1adrianb's model](https://github.com/1adrianb/face-alignment) to align face and detect landmarks, [foamliu's model](https://github.com/foamliu/InsightFace-v2) to compute Arcface loss.
