@@ -29,3 +29,9 @@ python train.py
 
 Download the pretrained model from [BaiDuYun (password:spwk)](https://pan.baidu.com/s/1RM2thrjKo_WbA972GTB1iA) | [GoogleDrive](https://drive.google.com/file/d/1qn1fKj-4iwykSZl_GT9kjz2UTnbMlU36/view?usp=sharing)
 
+Generate inpainted results guided by different reference images, run:
+
+```
+python test.py
+```
+
