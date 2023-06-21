@@ -11,3 +11,10 @@ with identity and texture control guided by a reference face
 image.
 
 ![RefFaceInpainting teaser](image/teaser.jpg)
+
+### Requirements
+
+- The code has been tested with PyTorch 1.10.1 and Python 3.7.11. We train our model with a NIVIDA RTX3090 GPU.
+
+### Dataset Preparation
+Download our dataset celebID from [BaiDuYun (password:5asv)](https://pan.baidu.com/s/1vbGJ1Gr3v71ulneSfQaN8Q) | [GoogleDrive](https://drive.google.com/file/d/1dIvKsW36j2D7AN2SBh-ZinF9X9iZoCon/view?usp=sharing) and set the relevant paths in `configs/config.yaml` and `test.py`
