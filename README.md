@@ -9,3 +9,5 @@ control for face inpainting, we propose a novel reference-guided
 face inpainting method that fills the large-scale missing region
 with identity and texture control guided by a reference face
 image.
+
+![RefFaceInpainting teaser](image/teaser.jpg)
