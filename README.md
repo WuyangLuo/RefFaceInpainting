@@ -20,7 +20,7 @@ image.
 Download our dataset celebID from [BaiDuYun (password:5asv)](https://pan.baidu.com/s/1vbGJ1Gr3v71ulneSfQaN8Q) | [GoogleDrive](https://drive.google.com/file/d/1dIvKsW36j2D7AN2SBh-ZinF9X9iZoCon/view?usp=sharing) and set the relevant paths in `configs/config.yaml` and `test.py`
 
 ### Training
-Download our pretrained Arcface model from [BaiDuYun (password:ot7a)](https://pan.baidu.com/s/1fechh2hCyA5zRg_xJ8Cx4w) | [GoogleDrive](https://drive.google.com/file/d/1VpD27jHOPaOJRKFqOO_txLHAE05CbtLU/view?usp=sharing)
+Download the pretrained Arcface model from [BaiDuYun (password:ot7a)](https://pan.baidu.com/s/1fechh2hCyA5zRg_xJ8Cx4w) | [GoogleDrive](https://drive.google.com/file/d/1VpD27jHOPaOJRKFqOO_txLHAE05CbtLU/view?usp=sharing)
 
 Train a model, run:
 ```
